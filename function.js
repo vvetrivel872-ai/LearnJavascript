@@ -10,8 +10,10 @@ abc()
 
 }
 
+console.clear();
 
-// ex for function calling
+
+// ex 1 for function calling
 
 {
 
@@ -46,5 +48,34 @@ abc()
 
 }
 
+console.clear()
 
 
+
+// Parameters and Arguments
+
+function add (a,b)
+{
+    console.log(a+b);
+    
+}
+
+add(10,20)
+
+
+
+//* Create a function called area()
+//* This function should get 2 values as parameter (length,breadth)
+//*pass two values to the function and print the result
+console.clear()
+
+function area(length,breadth)
+{
+    var a = length*breadth
+        console.log(a);
+        
+}
+
+var value1=10
+var value2=20
+area(value1,value2)
