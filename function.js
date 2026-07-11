@@ -79,3 +79,41 @@ function area(length,breadth)
 var value1=10
 var value2=20
 area(value1,value2)
+
+console.clear()
+
+{
+// Return Keyword
+
+function myname()
+{
+    return "vetri"
+
+   
+    
+}
+
+var a=myname()
+console.log("returned value",a);
+
+
+
+}
+
+// EX 2
+
+{
+
+    function add(a,b)
+    {
+        return(a+b)
+    }
+
+    var total=add(10,20)
+    console.log(total);
+    
+
+
+
+}
+
