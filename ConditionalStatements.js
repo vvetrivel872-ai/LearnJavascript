@@ -30,6 +30,28 @@ console.clear();
         console.log("Finish your homework before playing.");
     }
 
+
+
+
+}
+
+
+
+
+console.clear(); 
+
+{
+    // Ex 2
+    // Question: Check if a person is eligible for voting (Age 18 or above)
+  
+
+    let age = 21;
+
+    if (age >= 18) {
+        console.log("Eligible for voting");
+    } else {
+        console.log("Not eligible for voting");
+    }
 }
 
 
