@@ -34,6 +34,4 @@
 // console.log("Answer is",total);
 
 
-{
-    
-}
+console.log("hello");
