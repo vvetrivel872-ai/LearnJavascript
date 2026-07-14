@@ -9,4 +9,3 @@ para.textContent="bye"  //Used to change the text inside the element
 console.log(para)
 
 
-
