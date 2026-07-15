@@ -10,4 +10,10 @@ function btn()
   
 }
 
+function clearFields() {      // 
+    num1.value = "";           
+    num2.value = "";           
+    op.textContent = "output"; 
+}
+
 
