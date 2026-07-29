@@ -10,7 +10,7 @@ function btn()
   
 }
 
-function clearFields() {      // 
+function clearFields() {    
     num1.value = "";           
     num2.value = "";           
     op.textContent = "output"; 
