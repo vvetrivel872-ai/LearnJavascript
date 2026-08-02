@@ -9,7 +9,7 @@
 
 
 
-
+//ex 1 : Dynamic Element Creation
 
 
 var div=document.getElementById("result")
