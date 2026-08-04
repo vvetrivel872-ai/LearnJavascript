@@ -22,8 +22,20 @@
 
 // Exercise 2 : 
 
-var btn=document.getElementById("btn")
-function clicked() {
+// var btn=document.getElementById("btn")
+// function clicked() {
 
-    btn.style.backgroundColor="red"
+//     btn.style.backgroundColor="red"
+// }
+
+
+
+//  Exercise 3 : event.target text content :
+  
+var h1=document.getElementById("result")
+
+function update(event) {
+    h1.textContent=event.target.textContent;
+    
+
 }
