@@ -9,12 +9,21 @@
 
 
 
-//ex 1 : Dynamic Element Creation
+//Exercise 1 : Dynamic Element Creation
 
 
-var div=document.getElementById("result")
-function update()
-{   var listItem=document.createElement("h1")
-    listItem.textContent="Hello"
-    div.append(listItem)
+// var div=document.getElementById("result")
+// function update()
+// {   var listItem=document.createElement("h1")
+//     listItem.textContent="Hello"
+//     div.append(listItem)
+// }
+
+
+// Exercise 2 : 
+
+var btn=document.getElementById("btn")
+function clicked() {
+
+    btn.style.backgroundColor="red"
 }
