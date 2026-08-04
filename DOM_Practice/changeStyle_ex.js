@@ -4,7 +4,7 @@
 
 // function update(){
 //     result.textContent=inputbox.value
-  
+
 // }
 
 
@@ -31,12 +31,12 @@
 
 
 //  Exercise 3 : event.target text content :
-  
+
 // var h1=document.getElementById("result")
 
 // function update(event) {
 //     h1.textContent=event.target.textContent;
-    
+
 // }
 
 
@@ -45,7 +45,7 @@
 //  Exercise 4 :
 
 function deleteItem() {
-    
+
     event.target.remove()
 
 }
