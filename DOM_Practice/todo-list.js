@@ -13,4 +13,4 @@ for(count=0; count<div.length; count=count+1) {
     
     console.log(div[count].textContent);
     
-}
+} 
