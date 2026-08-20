@@ -33,12 +33,27 @@
 
 //inserAdjestElement
 
-var div=document.querySelector("div")
-var h1=document.createElement("h1")
-h1.textContent="vetri"
-div.insertAdjacentElement("afterend",h1)
+// var div=document.querySelector("div")
+// var h1=document.createElement("h1")
+// h1.textContent="vetri"
+// div.insertAdjacentElement("afterend",h1)
 
 
 
+//Todo list app
 
 
+var input=document.getElementById("input")
+var ul=document.getElementById("list-container")
+
+function add() {
+    var listItem=document.createElement("li")
+    listItem.innerHTML=input.value+ "<button onclick='deleteItem(event)'>Delete</button>"
+    ul.append(listItem)
+    input.value = ""
+
+}
+
+function deleteItem(event) {
+        event.target.parentElement.remove()
+}
