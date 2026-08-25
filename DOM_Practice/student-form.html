@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="student-form.css">
+    <script src="student-form.js" defer></script>
+</head>
+
+<body>
+
+    <div class="student-form">
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Age</th>
+                <td>
+                    <input type="number" id="age">
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>gender</th>
+                <td class="gender-adjust">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <th>course</th>
+                <td>
+                    <select name="course" id="course">
+                        <option value="" disabled selected>Select Course</option>
+                        <option value="computer science">Computer science</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="physics">Physics</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <th>Email</th>
+                <td>
+                    <input type="email" id="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button class="save-btn" onclick="saveData()">Save</button>
+                </td>
+            </tr>
+        </table>
+
+       
+    </div>
+
+     <table border="1" id="result-table" class="result">
+            <tr> <th>Name</th> <th>Age</th> <th>Gender</th> <th>Course</th> <th>Email</th> <th>Action</th></tr>
+
+            
+        </table>
+
+</body>
+
+</html>

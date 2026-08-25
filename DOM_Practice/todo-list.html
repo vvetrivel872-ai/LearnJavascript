@@ -25,16 +25,18 @@
 
     <!-- Todo list app -->
 
+    <div class="todo">
+        <div class="todoItems"> <input type="text" id="input">
+            <button onclick="add()">add</button>
 
-    <input type="text" id="input">
-    <button onclick="add()">add</button>
+            <ul id="list-container">
+                <li>
+                    hello <button onclick="deleteItem(event)">delete</button>
+                </li>
+            </ul>
+        </div>
 
-    <ul id="list-container">
-        <li>
-            hello <button onclick="deleteItem(event)" >delete</button>
-        </li>
-    </ul>
-
+    </div>
 
 </body>
 
